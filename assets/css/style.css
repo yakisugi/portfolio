@@ -1,0 +1,1049 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*--------------- Hero ---------------*/
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: #101010;
+}
+
+span {
+  color: lightskyblue;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 8% 0 8%;
+}
+
+.logo a {
+  color: white;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+  font-size: 2.0rem;
+}
+
+nav ul li a:hover {
+  color: blue;
+
+}
+
+.btn {
+  background-color: lightskyblue;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  border-radius: 20px;
+  color: blue;
+}
+
+.content {
+  padding-top: 230px;
+}
+
+.content .body {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 50px;
+  padding-left: 270px;
+}
+
+.content .body img {
+  width: 680px;
+  height: 680px;
+  margin-top: -180px;
+  margin-left: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: white;
+  margin: 20px 0;
+  font-size: 7.5rem;
+}
+
+h3 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+h4 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 2.0rem;
+}
+
+.newsletter form {
+  width: 380px;
+  position: relative;
+}
+
+.newsletter form input:first-child {
+  width: 100%;
+  padding: 15px 130px 15px 15px;
+  outline: none;
+  border: 2px solid lightskyblue;
+  border-radius: 30px;
+}
+
+.newsletter form input:last-child {
+  position: absolute;
+  border: none;
+  top: 4px;
+  right: 6px;
+  padding: 10px 30px;
+  height: 40px;
+  background-color: lightskyblue;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px black;
+}
+
+
+/*--------------- About Me ---------------*/
+.about {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #191919;
+}
+
+.about img {
+  width: 430px;
+  height: 430px;
+  border-radius: 50%;
+}
+
+.about_text {
+  width: 550px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about_text h2 {
+  color: white;
+  font-size: 7.5rem;
+  margin-bottom: 20px;
+}
+
+.about_text h5 {
+  color: white;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+}
+
+.about_text p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-bottom: 45px;
+  font-size: 1.8rem;
+}
+
+button {
+  background-color: lightskyblue;
+  padding: 13px 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid blue;
+  cursor: pointer;
+  color: blue;
+}
+
+
+/*--------------- Portfolio ---------------*/
+.portfolio {
+  background-color: #101010;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.title h2 {
+  color: white;
+  font-size: 7.5rem;
+  margin: 30px auto;
+  text-align: center
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.card {
+  height: 390px;
+  width: 365px;
+  background-color: #191919;
+  padding: 20px 35px;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card i {
+  color: lightskyblue;
+  font-size: 5.0rem;
+  margin: 25px 0;
+}
+
+h5 {
+  color: white;
+  font-size: 2.3rem;
+  margin-bottom: 30px;
+}
+
+.paragrah p {
+  color: white;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.card .button {
+  background-color: lightskyblue;
+  padding: 13px 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.card .button:hover {
+  background-color: transparent;
+  border: 2px solid blue;
+  cursor: pointer;
+  color: blue;
+}
+
+
+/*--------------- contact ---------------*/
+.contact {
+  width: 100%;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #191919;
+}
+
+.contact p {
+  color: white;
+  font-size: 3.0rem;
+  font-weight: bold;
+  margin-bottom: 55px;
+}
+
+.contact .contact_button {
+  background-color: lightskyblue;
+  padding: 13px 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.contact .contact_button:hover {
+  background-color: transparent;
+  border: 2px solid blue;
+  cursor: pointer;
+  color: blue;
+}
+
+
+/*--------------- footer ---------------*/
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #101010;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p:nth-child(1) {
+  font-size: 3.0rem;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer p:nth-child(2) {
+  font-size: 1.7rem;
+  color: white;
+  width: 500px;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+}
+
+.social a {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: lightskyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 22px 10px;
+  color: white;
+}
+
+.social a:hover {
+  transform: scale(1.3);
+  transition: all 0.3s;
+  color: blue;
+}
+
+
+/*--------------- CopyRight ---------------*/
+.end {
+  color: white;
+  margin-top: 100px;
+  font-size: 1.6rem;
+}
+
+.sp_only {
+  display: none;
+}
+
+#navTgl {
+  display: none;
+}
+
+/*--------------- vlog ---------------*/
+.vlog_content {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  padding-top: 100px;
+  background-color: lightseagreen;
+}
+
+.vlog_content p {
+  font-size: 4.5rem;
+  color: blue;
+  font-weight: bold;
+}
+
+/*--------------- portfolio ---------------*/
+.portfolio_content {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  padding-top: 100px;
+  background-color: lightseagreen;
+}
+
+.portfolio_content p {
+  font-size: 4.5rem;
+  color: blue;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width:1480px) {
+  .content .body {
+    padding-left: 220px;
+  }
+
+  .content .body img {
+    width: 520px;
+    height: 520px;
+  }
+
+  .newsletter form {
+    width: 340px;
+  }
+}
+
+
+@media screen and (max-width:1240px) {
+
+  /*--------------- Hero ---------------*/
+  .content .body {
+    padding-left: 80px;
+  }
+
+  .content .body img {
+    width: 480px;
+    height: 480px;
+  }
+
+  .newsletter form {
+    width: 340px;
+  }
+
+  .newsletter form {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+}
+
+
+/*--------------- tablet ---------------*/
+
+/*--------------- 調整 ---------------*/
+@media screen and (max-width:1024px) {
+
+  /*--------------- Hero ---------------*/
+  nav ul li a {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    padding-top: 60px;
+  }
+
+  .content .body {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .content .body img {
+    width: 400px;
+    height: 400px;
+    margin: 30px auto 0 auto;
+  }
+
+  h1 {
+    color: white;
+    margin: 20px 0;
+    font-size: 5.5rem;
+  }
+
+  h3 {
+    color: white;
+    font-size: 2.0rem;
+    margin-bottom: 50px;
+  }
+
+  h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+  }
+
+  .newsletter form {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .newsletter form input:first-child {
+    width: 100%;
+    padding: 15px 130px 15px 15px;
+    outline: none;
+    border: 2px solid lightskyblue;
+    border-radius: 30px;
+  }
+
+  .newsletter form input:last-child {
+    position: absolute;
+    border: none;
+    top: 4px;
+    right: 6px;
+    padding: 10px 20px 5px 20px;
+    height: 40px;
+    background-color: lightskyblue;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px black;
+  }
+
+  /*--------------- About Me ---------------*/
+
+  .about img {
+    width: 330px;
+    height: 330px;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  /*--------------- contact ---------------*/
+  .contact p {
+    margin-bottom: 60px;
+  }
+
+}
+
+
+
+@media screen and (max-width:768px) {
+  .pc_only {
+    display: none;
+  }
+
+  .sp_only {
+    display: block;
+  }
+
+  /*--------------- Hero ---------------*/
+  .logo a {
+    font-size: 2.5rem;
+  }
+
+  label.open {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    width: 54px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .open span,
+  .open::before,
+  .open::after {
+    content: "";
+    position: absolute;
+    width: 27px;
+    border-bottom: 2px solid white;
+  }
+
+  .open::before {
+    transform: translateY(-8px);
+  }
+
+  .open::after {
+    transform: translateY(8px);
+  }
+
+  #navTgl:checked+.open span {
+    opacity: 0;
+  }
+
+  #navTgl:checked+.open::before {
+    transform: rotate(-45deg);
+  }
+
+  #navTgl:checked+.open::after {
+    transform: rotate(45deg);
+  }
+
+  .open::before,
+  .open::after,
+  #navTgl:checked+.open::before,
+  #navTgl:checked+.open::after {
+    transition: all 0.3s;
+  }
+
+  .drawer_nav {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: lightseagreen;
+    padding: 20px 10px;
+  }
+
+  .drawer_nav .btn:hover {
+    transform: scale(1.2);
+    border-radius: 20px;
+    color: blue;
+  }
+
+  .drawer_nav ul {
+    width: 100%;
+    padding: 0;
+    color: white;
+  }
+
+  .drawer_nav ul li {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .drawer_nav ul li a {
+    color: var(--white);
+    font-size: 2.6rem;
+    display: block;
+    padding: 16px;
+    line-height: 2.7rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #navTgl:checked~.drawer_nav {
+    left: 0;
+  }
+
+  .content {
+    padding-top: 100px;
+  }
+
+  .content .body {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .content .body img {
+    width: 320px;
+    height: 320px;
+    margin: 40px auto 30px auto;
+  }
+
+  h1 {
+    font-size: 7.0rem;
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    font-size: 2.0rem;
+    margin-bottom: 60px;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .newsletter form {
+    width: 280px;
+    margin: 0 auto 30px auto;
+  }
+
+  .newsletter form input:first-child {
+    width: 100%;
+    padding: 5px 100px 5px 15px;
+    font-size: 1.0rem
+  }
+
+  .newsletter form input:last-child {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    padding: 5px 10px 2px 8px;
+    width: 60px;
+    height: 20px;
+    font-size: 0.8rem
+  }
+
+  /*--------------- About Me ---------------*/
+  .main {
+    width: 100%;
+    display: block;
+  }
+
+  .about img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+  }
+
+  .about_text {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .about_text h2 {
+    font-size: 5.5rem;
+    text-align: center;
+    margin: 30px auto;
+  }
+
+  .about_text h5 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 30px auto;
+  }
+
+  .about_text p {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    align-items: center;
+    padding: 10px 30px;
+  }
+
+  button {
+    display: block;
+    margin: 40px auto;
+  }
+
+
+  /*--------------- Portfolio ---------------*/
+  .title h2 {
+    color: white;
+    font-size: 5.0rem;
+    margin: 10px auto 60px auto;
+  }
+
+  .box {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    margin: 20px auto;
+  }
+
+  .card {
+    height: 390px;
+    width: 305px;
+    margin: 30px auto;
+  }
+
+  .card i {
+    font-size: 4.0rem;
+    margin: 25px auto;
+  }
+
+  h5 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .paragrah p {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    margin-bottom: 50px;
+  }
+
+  /*--------------- contact ---------------*/
+  .contact {
+    width: 100%;
+    height: 240px;
+  }
+
+  .contact p {
+    font-size: 2.0rem;
+    margin-bottom: 50px;
+  }
+
+
+  /*--------------- footer ---------------*/
+  footer {
+    height: 300px;
+  }
+
+  footer p:nth-child(1) {
+    font-size: 3.0rem;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  footer p:nth-child(2) {
+    font-size: 1.7rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .social a {
+    width: 35px;
+    height: 35px;
+    margin: 22px 10px 20px 10px;
+  }
+
+  /*--------------- CopyRight ---------------*/
+  .end {
+    color: white;
+    margin: 40px auto 0 auto;
+    font-size: 1.6rem;
+  }
+
+}
+
+
+/*--------------- sp ---------------*/
+@media screen and (max-width:450px) {
+  .pc_only {
+    display: none;
+  }
+
+
+  /*--------------- Hero ---------------*/
+  .logo a {
+    font-size: 2.0rem;
+  }
+
+  .content {
+    padding-top: -20px;
+  }
+
+  .content .body {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .content .body img {
+    width: 280px;
+    height: 280px;
+    margin: 40px auto 30px auto;
+  }
+
+  h1 {
+    font-size: 5.0rem;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 1.0rem;
+    margin-bottom: -10px;
+  }
+
+  .newsletter form {
+    width: 220px;
+    margin: 0 auto 20px auto;
+  }
+
+  .newsletter form input:first-child {
+    width: 100%;
+    padding: 5px 100px 5px 15px;
+    font-size: 1.0rem
+  }
+
+  .newsletter form input:last-child {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    padding: 5px 10px 2px 8px;
+    width: 60px;
+    height: 20px;
+    font-size: 0.8rem
+  }
+}
+
+@media screen and (max-width:375px) {
+  .pc_only {
+    display: none;
+  }
+
+
+  /*--------------- Hero ---------------*/
+  .logo a {
+    font-size: 2.0rem;
+  }
+
+  .content {
+    padding-top: -20px;
+  }
+
+  .content .body {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .content .body img {
+    width: 180px;
+    height: 180px;
+    margin: 40px auto 30px auto;
+  }
+
+  h1 {
+    font-size: 5.0rem;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 1.0rem;
+    margin-bottom: -10px;
+  }
+
+  .newsletter form {
+    width: 220px;
+    margin: 0 auto 20px auto;
+  }
+
+  .newsletter form input:first-child {
+    width: 100%;
+    padding: 5px 100px 5px 15px;
+    font-size: 1.0rem
+  }
+
+  .newsletter form input:last-child {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    padding: 5px 10px 2px 8px;
+    width: 60px;
+    height: 20px;
+    font-size: 0.8rem
+  }
+
+  /*--------------- About Me ---------------*/
+  .about img {
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+  }
+
+  .about_text {
+    width: 250px;
+  }
+
+  .about_text h2 {
+    font-size: 5.0rem;
+  }
+
+  .about_text h5 {
+    font-size: 1.3rem;
+  }
+
+  .about_text p {
+    line-height: 2.0rem;
+    font-size: 1.2rem;
+  }
+
+
+  /*--------------- Portfolio ---------------*/
+  .title h2 {
+    font-size: 4.5rem;
+  }
+
+  .box {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    margin: 20px auto;
+  }
+
+  .card {
+    height: 340px;
+    width: 280px;
+  }
+
+  .card i {
+    font-size: 3.5rem;
+    margin: 20px auto 25px auto;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+  }
+
+  .paragrah p {
+    line-height: 2.0rem;
+  }
+
+  /*--------------- contact ---------------*/
+  .contact {
+    width: 100%;
+    height: 200px;
+  }
+
+  .contact p {
+    font-size: 1.8rem;
+  }
+
+
+  /*--------------- footer ---------------*/
+  footer {
+    height: 200px;
+  }
+
+  footer p:nth-child(1) {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  footer p:nth-child(2) {
+    font-size: 1.2rem;
+  }
+
+  .social a {
+    width: 30px;
+    height: 30px;
+    margin: 20px 8px 20px 8px;
+  }
+
+  /*--------------- CopyRight ---------------*/
+  .end {
+    font-size: 1.1rem;
+  }
+
+}
